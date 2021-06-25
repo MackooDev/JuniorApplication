@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b320261a-a45a-43cf-a6c6-535bd833a841" name="Default Changelist" comment="testing http client">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/junioroffers/infrastructure/RemoteOfferClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/junioroffers/infrastructure/offer/client/OfferHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/junioroffers/infrastructure/offer/dto/OfferDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/junioroffers/infrastructure/offer/client/OfferHttpClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JuniorOffers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JuniorOffers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" beforeDir="false" />
-    </list>
+    <list default="true" id="b320261a-a45a-43cf-a6c6-535bd833a841" name="Default Changelist" comment="testing http client" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624641937500</updated>
-      <workItem from="1624641939679" duration="6374000" />
+      <workItem from="1624641939679" duration="6721000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1624642377879</created>
@@ -135,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624643271139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testing http client">
+      <created>1624648571268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624648571268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
