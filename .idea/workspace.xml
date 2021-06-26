@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b320261a-a45a-43cf-a6c6-535bd833a841" name="Default Changelist" comment="testing http client" />
+    <list default="true" id="b320261a-a45a-43cf-a6c6-535bd833a841" name="Default Changelist" comment="testing http client">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/junioroffers/infrastructure/offer/client/OfferHttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/junioroffers/infrastructure/offer/client/OfferHttpClientTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,14 +63,47 @@
       <recent name="com.example.demo.junioroffers.infrastructure.offer.client" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OfferHttpClientTest.should_return_one_element_list_of_offer">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OfferHttpClientTest">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfferHttpClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JuniorOffers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.junioroffers.infrastructure.offer.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.junioroffers.infrastructure.offer.client" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.junioroffers.infrastructure.offer.client.OfferHttpClientTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfferHttpClientTest.should_return_empty_list_of_offers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JuniorOffers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.junioroffers.infrastructure.offer.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.junioroffers.infrastructure.offer.client" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.junioroffers.infrastructure.offer.client.OfferHttpClientTest" />
+      <option name="METHOD_NAME" value="should_return_empty_list_of_offers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,6 +124,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OfferHttpClientTest.should_return_two_offers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JuniorOffers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.junioroffers.infrastructure.offer.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.junioroffers.infrastructure.offer.client" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.junioroffers.infrastructure.offer.client.OfferHttpClientTest" />
+      <option name="METHOD_NAME" value="should_return_two_offers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="JuniorOffers" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.junioroffers.JobOffersApplication" />
@@ -97,6 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OfferHttpClientTest" />
+        <item itemvalue="JUnit.OfferHttpClientTest.should_return_empty_list_of_offers" />
+        <item itemvalue="JUnit.OfferHttpClientTest.should_return_two_offers" />
         <item itemvalue="JUnit.OfferHttpClientTest.should_return_one_element_list_of_offer" />
       </list>
     </recent_temporary>
@@ -109,7 +164,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624641937500</updated>
-      <workItem from="1624641939679" duration="7119000" />
+      <workItem from="1624641939679" duration="7432000" />
+      <workItem from="1624686954619" duration="4285000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1624642377879</created>
@@ -139,11 +195,29 @@
       <option name="project" value="LOCAL" />
       <updated>1624648787519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="testing http client">
+      <created>1624649244034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624649244034</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
