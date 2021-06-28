@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b320261a-a45a-43cf-a6c6-535bd833a841" name="Default Changelist" comment="testing http client">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/junioroffers/infrastructure/offer/error/RestTemplateResponseErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/junioroffers/config/OfferHttpClientTestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/junioroffers/infrastructure/offer/client/OfferHttpClientIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/junioroffers/infrastructure/offer/client/SampleOfferDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/junioroffers/infrastructure/offer/client/OfferHttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/junioroffers/infrastructure/offer/client/OfferHttpClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JuniorOffers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JuniorOffers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/junioroffers/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/junioroffers/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -53,6 +63,10 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.demo.junioroffers.infrastructure.offer.client" />
+      <recent name="com.example.demo.junioroffers.infrastructure.offer.error" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -63,16 +77,30 @@
       <recent name="com.example.demo.junioroffers.infrastructure.offer.client" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OfferHttpClientTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OfferHttpClientIntegrationTest.should_return_two_job_offers">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfferHttpClientIntegrationTest.should_return_two_job_offers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JuniorOffers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.junioroffers.infrastructure.offer.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.junioroffers.infrastructure.offer.client" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.junioroffers.infrastructure.offer.client.OfferHttpClientIntegrationTest" />
+      <option name="METHOD_NAME" value="should_return_two_job_offers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OfferHttpClientIntegrationTest.should_return_two_job_offers" />
         <item itemvalue="JUnit.OfferHttpClientTest" />
         <item itemvalue="JUnit.OfferHttpClientTest.should_return_empty_list_of_offers" />
         <item itemvalue="JUnit.OfferHttpClientTest.should_return_two_offers" />
@@ -165,7 +194,8 @@
       <option name="presentableId" value="Default" />
       <updated>1624641937500</updated>
       <workItem from="1624641939679" duration="7432000" />
-      <workItem from="1624686954619" duration="4285000" />
+      <workItem from="1624686954619" duration="7551000" />
+      <workItem from="1624877141499" duration="3401000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1624642377879</created>
@@ -202,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624649244034</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implemented first unit test for httpclient">
+      <created>1624703749607</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624703749607</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,11 +255,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="added main application" />
     <MESSAGE value="testing http client" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing http client" />
+    <MESSAGE value="implemented first unit test for httpclient" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented first unit test for httpclient" />
   </component>
 </project>
